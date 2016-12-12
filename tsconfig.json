@@ -1,8 +1,11 @@
 {
     "compilerOptions": {
-        "module": "umd",
+        "module": "none",
         "target": "es5",
         "noEmit": true,
-        "moduleResolution": "classic"
+        "moduleResolution": "node",
+        "lib": [
+            "es6"
+        ]
     }
 }
